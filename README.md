@@ -11,4 +11,6 @@ If we get 2,3,7,8 we have 4 possibilities.
 So we can create algorithm O(4) ;) </br>
 Skarbfi </br>
 Notice, that this function return 0 or 1.
-Math.signum((double)directionAndStepArray[0])+1)/2
+Math.signum((double)directionAndStepArray[0])+1)/2 </br>
+And  directionAndStepArray[(direction/2)]+=Math.pow(-1,(direction+1)%2)*steps; substract if direction is 0 or 2 and adding when direction is 1 or 3.
+
