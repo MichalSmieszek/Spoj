@@ -2,7 +2,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Main   {
+public class PA05_POT   {
     public static void main (String[] args)  throws java.lang.Exception{
         Scanner scanner = new Scanner(System.in);
         int numberOfTrials=Integer.parseInt(scanner.nextLine());
