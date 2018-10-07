@@ -38,19 +38,19 @@ class Windmill{
         if (size<0)
             for(int i=0;i<abs(size);i++) {
                 for (int j = 0; j < i; j++) {
-                    Windmill[i][j] = ".";
-                    Windmill[j][2 * abs(size) - i - 1] = ".";
-                    Windmill[2 * abs(size) - j - 1][i] = ".";
-                    Windmill[2 * abs(size) - i - 1][2 * abs(size) - j - 1] = ".";
+                    windmill[i][j] = ".";
+                    windmill[j][2 * abs(size) - i - 1] = ".";
+                    windmill[2 * abs(size) - j - 1][i] = ".";
+                    windmill[2 * abs(size) - i - 1][2 * abs(size) - j - 1] = ".";
                 }
             }
         else
             for(int i=0;i<abs(size);i++) {
                 for (int j = 0; j < i; j++) {
-                        Windmill[j][i] = ".";
-                        Windmill[i][2 * abs(size) - j - 1] = ".";
-                        Windmill[2 * abs(size) - i - 1][j] = ".";
-                        Windmill[2 * abs(size) - j - 1][2 * abs(size) - i - 1] = ".";
+                        windmill[j][i] = ".";
+                        windmill[i][2 * abs(size) - j - 1] = ".";
+                        windmill[2 * abs(size) - i - 1][j] = ".";
+                        windmill[2 * abs(size) - j - 1][2 * abs(size) - i - 1] = ".";
                     }
                 }
 
