@@ -34,7 +34,7 @@ class Windmill{
     }
 
     public static String[][] doTriangles (int size){
-        String [][] Windmill= doStars(abs(size));
+        String [][] windmill= doStars(abs(size));
         if (size<0)
             for(int i=0;i<abs(size);i++) {
                 for (int j = 0; j < i; j++) {
